@@ -6,4 +6,4 @@ const colore = ( prompt ("Scrivi il tuo colore preferito"));
 const password = nome + cognome + colore;
 console.log (password);
 
-document.getElementById ('output').innerHTLM = 'La tua password è' + password;
+document.getElementById ('output').innerHTML= 'La tua password è: ' + password;
